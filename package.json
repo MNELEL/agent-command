@@ -1,0 +1,12 @@
+{
+  "name": "agent-command",
+  "version": "9.0.0",
+  "description": "מרכז פיקוד 33 סוכנים",
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
