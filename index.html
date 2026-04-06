@@ -718,7 +718,7 @@ body.light .theme-toggle::after{transform:translateX(-18px);}
           <div class="field mb12"><label>WebSocket URL</label><input class="cr-input" id="s-ws" type="url" placeholder="wss://your-api.vercel.app/ws" value="wss://your-api.vercel.app/ws"/></div>
           <div class="field mb12"><label>Supabase URL</label><input class="cr-input" id="s-supa" type="url" placeholder="https://xxxx.supabase.co" value="https://xxxx.supabase.co"/></div>
           <div class="field mb12"><label>Supabase Anon Key</label><input class="cr-input" id="s-supa-key" type="password" placeholder="eyJ..."/></div>
-          <div class="field mb12"><label>Webhook URL (n8n/Make)</label><input class="cr-input" id="s-webhook" type="url" placeholder="https://n8n.example.com/webhook/agents"/></div>
+          <div class="field mb12"><label>Webhook URL (n8n/Make)</label><input class="cr-input" id="s-webhook" type="url" placeholder="                                      "/></div>
           <button onclick="saveServerSettings()" style="width:100%;padding:9px;border-radius:7px;border:1px solid rgba(0,212,255,.3);background:rgba(0,212,255,.08);color:var(--cyan);font-family:'Noto Sans Hebrew',sans-serif;font-size:12px;font-weight:700;cursor:pointer;">💾 שמור הגדרות שרת</button>
         </div>
       </div>
@@ -742,12 +742,12 @@ body.light .theme-toggle::after{transform:translateX(-18px);}
 //  CONFIG
 // ══════════════════════════════════════════════════════════
 const ACS = {
-  REST: 'https://your-api.vercel.app/api',
+  REST: 'https://agent-command-rust.vercel.app/api',
   WS:   'wss://your-api.vercel.app/ws',
   SUPA_URL: 'https://xxxx.supabase.co',
   SUPA_KEY: '',
   TICK_FAST: 2500,
-  DEV_MODE: true,
+  DEV_MODE: false,
 };
 
 // ══════════════════════════════════════════════════════════
